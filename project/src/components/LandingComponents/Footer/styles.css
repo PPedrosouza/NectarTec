@@ -1,0 +1,47 @@
+.container-background-yellow {
+  background-color: var(--yellow-container);
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  /* border: 1px solid green; */
+
+}
+
+.icon-container {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  /* border: 1px solid white; */
+}
+
+.icon {
+  margin-right: 10px; /* Espaço entre o ícone e o texto (ajuste conforme necessário) */
+}
+
+.text-icon {
+  font-weight: bold;
+}
+/* .icons {
+  width: 50px;
+  height: 50px;
+  margin: auto 50px auto 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform .3s;
+}
+
+.icons a {
+  color: white;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+} */

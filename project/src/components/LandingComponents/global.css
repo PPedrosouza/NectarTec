@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    /*cor variável*/
+    --fasemoon1: linear-gradient(90deg, #FDFDFE 28.65%, rgba(196, 196, 196, 0) 100%);
+    --fasemoon2: linear-gradient(90deg, #C4C4C4 1.04%, #FFFFFF 52.08%, #C4C4C4 100%);
+    --fasemoon3: linear-gradient(90deg, rgba(196, 196, 196, 0) 0.07%, #FFFFFF 79.76%);
+    --soon: linear-gradient(90deg, #32BF84 0%, #BE03FD 100%);
+    --gray: hsla(0, 0%, 90%, 1);
+    --gray-dark: hsla(203, 11%, 39%, 1);
+    --gray-ligth: hsla(0, 0%, 90%, 1);
+    --gray-medium: hsla(240, 7%, 78%, 1);
+    --purple: hsla(285, 98%, 50%, 1);
+    --green: hsla(155, 59%, 47%, 1);
+    --white: hsla(240, 33%, 99%, 1);
+    --white-gradient: linear-gradient(180deg, #FEFDFE 0%, rgba(253, 253, 254, 0.19) 100%);
+    --blue-dark: hsla(237, 100%, 9%, 1);
+    --dark: hsla(210, 8%, 10%);
+    --yellow: hsla(47, 99%, 55%);
+    --linear-background: #252525;
+    --yellow-container: rgba(242, 192, 52, 1);
+  
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    background: var(--linear-background);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    height: 100vh;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 5px;
+    /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--linear-background);
+    /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    /* color of the scroll thumb */
+    background-color: var(--gray-medium);
+    border-radius: 6px;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gray-dark {
+    color: var(--gray-dark);
+  }
+  
+  .gray-light {
+    color: var(--gray-ligth);
+  }
+  
+  .blue-dark {
+    color: var(--dark);
+  }
+  
+  .gray-medium {
+    color: var(--gray-medium);
+    text-shadow: #58656D 1px 3px 10px;
+  }
+  
+  .white {
+    color: var(--white);
+  }
+  
+  .wrapper {
+    margin: 0 10px;
+  }
